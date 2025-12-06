@@ -1,0 +1,394 @@
+#HoUNick {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 70%;
+    margin: 10px auto;
+    border: 1px solid #0000001a;
+    border-radius: 20px;
+    overflow: auto;
+    box-shadow: 0px 0px 10px #0000007a;
+    scrollbar-width: none;
+    position: relative;
+}
+
+
+.HoUn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #c7d2ff;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+}
+
+#nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 70px;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 50px;
+    font-variant: petite-caps;
+    font-family: system-ui;
+    font-style: italic;
+}
+
+span {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.nava:hover {
+    padding: 8px 20px;
+    border: 1px solid #0000ff52;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px black;
+}
+
+.active {
+    padding: 8px 20px;
+    border: 1px solid #0000ff52;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-weight: 700;
+}
+
+
+.HoUn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0px;
+    height: 90%;
+}
+
+
+.HoUn2_item1 img {
+    width: 550px;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.377));
+}
+
+
+h2 {
+    font-size: 3rem;
+    font-family: system-ui;
+    margin: 10px 0px;
+}
+
+#p {
+    font-size: 17px;
+    margin: 0px 0px;
+    font-weight: 600;
+    font-family: 'DM Sans';
+}
+
+.HoUn2_item2 {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.HoUn2_item2 img {
+    height: 200px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.231));
+}
+
+#HoUnbtn {
+    padding: 10px 18px;
+    border: 1px solid #00000036;
+    background: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(60, 12, 234);
+}
+
+#HoUnbtn a {
+
+    color: white;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #aeb9e5;
+    border: 1px solid #00000017;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #0000004d;
+    width: 60%;
+}
+
+#h1 {
+    margin: 20px 0px;
+    font-size: 50px;
+    color: blue;
+    font-variant: small-caps;
+    font-family: system-ui;
+    text-shadow: 0px 0px 70px #5959ff;
+}
+
+#form_rg {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lev {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.infeld {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #00000052;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000082;
+    margin: 5px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.op {
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: system-ui;
+}
+
+.p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+#box {
+    height: 100px;
+    margin-top: 7px;
+    width: 90%;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000045;
+}
+
+.ope {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: system-ui;
+}
+
+.btn {
+    color: white;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #9d9d9d8f;
+    background-color: red;
+    box-shadow: 0px 0px 10px #655e5e;
+    margin: 0px 5px;
+}
+
+#SBTN {
+    background: blue;
+}
+
+.btn:hover {
+    color: rgb(42, 248, 255);
+    text-shadow: 0px 0px 10px aqua;
+    box-shadow: 0px 0px 10px #000000c2;
+    transform: scale(.96);
+    transition-duration: .5s;
+}
+
+.opo {
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 25px 0px;
+    font-size: 17px;
+    font-family: system-ui;
+}
+
+.ho:hover {
+
+    box-shadow: 0px 0px 10px #000000c9;
+    transform: scale(.98);
+    transition-duration: .5s;
+}
+
+.P_fo_FORM {
+    margin: 5px 0px;
+    width: 150px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+tr {
+    height: 40px;
+
+
+}
+
+th {
+    background-color: #1569fa47;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+td {
+    background-color: #7413fd18;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-family: 'DM Sans';
+    font-weight: 600;
+}
+
+.DataV {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#TrTH {
+    height: 60px;
+}
+
+.Edit {
+    padding: 7px 15px;
+    border: 1px solid #00000029;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.cotrun {
+
+    transform: scale(.01);
+}
+
+.con {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 2;
+    transform: scale(1);
+    transition-duration: 3s;
+    -webkit-transition-duration: 4s;
+
+}
+
+
+.view {
+    z-index: 41;
+    visibility: visible;
+}
+
+.PopUpDelete {
+    border: 1px solid #00000042;
+    height: 150px;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+    box-shadow: 0px 0px 20px #060606;
+    
+}
+
+.view {
+    z-index: 40;
+    visibility: visible;
+}
+
+#ived {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
